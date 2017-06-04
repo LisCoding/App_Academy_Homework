@@ -21,6 +21,7 @@
     def show
       # return a copy of the stack
       puts "#{@stack}"
+      #@stack.dup
     end
   end
 
